@@ -9,7 +9,7 @@ spec:
     repoURL: 'https://github.com/swapnildahiphale/liquibase-argocd-demo'
     targetRevision: main
   destination:
-    namespace: default
+    namespace: liquibase
     server: 'https://kubernetes.default.svc'
   project: default
   syncPolicy:
